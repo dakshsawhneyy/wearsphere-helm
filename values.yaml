@@ -1,0 +1,23 @@
+frontend:
+  testValue: "Hello from Parent Chart"
+
+backend:
+  testValue: "Hello Backend"
+
+mongodb:
+  auth:
+    rootPassword: secret123 # for root user
+    username: admin
+    password: pass123 # for normal user
+    database: wearsphere
+  architecture: standalone # single, independent MongoDB server instance
+
+admin:
+  testValue: "Hello Admin"
+
+ingress:
+  ingressClassName: alb
+  host: wearsphere.cctlds.online
+  frontendPort: 5173
+  backendPort: 4000
+  adminPort: 5174
