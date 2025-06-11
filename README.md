@@ -60,9 +60,6 @@ You can edit `values.yaml` to configure environment-specific variables like:
 
 This chart includes **liveness** and **readiness** probes for production stability.
 
-
-```
-
 ##  Contributing
 
 Feel free to open issues or pull requests to improve the chart!
